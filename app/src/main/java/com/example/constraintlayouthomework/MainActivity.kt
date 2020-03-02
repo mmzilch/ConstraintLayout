@@ -1,0 +1,13 @@
+package com.example.constraintlayouthomework
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import android.view.MenuItem
+
+class MainActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.test_one)
+    }
+}
